@@ -1,0 +1,112 @@
+#title-and-image-user {
+    display: flex;
+    justify-content: space-between;
+}
+
+#info-user {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between;
+}
+
+#div-image-user {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    #image-user {
+        height: 13vh;
+    }
+}
+
+.edit {
+    color: #11A1FD;
+}
+
+.info-user {
+    width: 47%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.cadre-info {
+    background-color: white;
+    width: 100%;
+    line-height: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    outline: solid thin;
+    outline-color: rgba($color: #000000, $alpha: 0.5);
+    border: none;
+    border-radius: 6px;
+    font-size: 19px;
+}
+
+.info-inchangeable {
+    color: #737070;
+    padding-left: 20px;
+}
+
+.info-changeable {
+    color: black;
+    padding-left: 10px;
+}
+
+.titre-info {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#password {
+    display: flex;
+    width: 100%;
+
+    .new-password {
+        width: 50%;
+    }
+}
+
+
+#div-update {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+
+    #btn-update {
+        background-color: #07C180;
+        color: white;
+        border-radius: 6px;
+    
+    
+        #text-update {
+            margin-bottom: 0px;
+        }
+    }
+}
+
+#div-abonnement {
+    width: 100%;
+    display: flex;
+
+    #title-abonnement {
+        font-size: 25px;
+        margin-top: 50px;
+        font-weight: bold;
+    }
+
+    #type-abonnement {
+        padding-left: 10px;
+        margin-top: 51px;
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    #modify {
+        margin-top: 40px;
+    }
+}
+
+

@@ -1,0 +1,55 @@
+.mat-toolbar{
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.mat-toolbar-row {
+  justify-content: space-between;
+}
+
+.hamburger{
+  font-size: 35px;
+}
+
+ul{
+  li{
+    list-style: none;
+    background-color: #fff ;
+    &:hover{
+      background-color: transparent !important;
+    }
+  }
+}
+
+
+button{
+  border: 0;
+  outline: none;
+  background-color: #fff ;
+  &:hover{
+    background-color: transparent !important;
+  }
+
+
+}
+
+.user{
+  font-size: 14px;
+
+}
+
+.user-image{
+  border-radius: 50%;
+  width: 70px;
+  height: auto;
+  padding-right: 20px;
+}
+
+::ng-deep{
+  .mat-menu-content{
+    width: 160px;
+  }
+}

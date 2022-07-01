@@ -1,0 +1,45 @@
+<mat-nav-list>
+  <div class="logo py-4">
+    <img src="assets/Logo-light.png" alt="GSP logo">
+  </div>
+  <mat-divider></mat-divider>
+
+
+  <a mat-list-item routerLink="/products" routerLinkActive="list-item-active">
+    <img src="assets/cubes.png" alt="" class="home-page">
+    <h4>Produits</h4>
+  </a>
+
+  <h2 matSubheader class="mt-2">GESTION</h2>
+  <a mat-list-item routerLink="/products/add" routerLinkActive="list-item-active">
+    <mat-icon>add_circle</mat-icon>
+    <h4>Ajouter un produit</h4>
+  </a>
+
+  <a mat-list-item routerLink="/users" routerLinkActive="list-item-active">
+    <mat-icon>supervised_user_circle</mat-icon>
+    <h4>Utilisateurs</h4>
+  </a>
+
+  <a mat-list-item routerLink="/mouvements" routerLinkActive="list-item-active">
+    <mat-icon>swap_horizontal_circle</mat-icon>
+    <h4>Mouvements</h4>
+  </a>
+
+  <h2 matSubheader class="mt-2">COMPTE</h2>
+  <a mat-list-item routerLink="/profile" routerLinkActive="list-item-active">
+    <mat-icon>settings</mat-icon>
+    <h4>Paramètres</h4>
+  </a>
+
+  <a mat-list-item routerLinkActive="list-item-active">
+    <mat-icon>logout</mat-icon>
+    <h4>Déconnexion</h4>
+  </a>
+
+
+
+
+
+
+</mat-nav-list>

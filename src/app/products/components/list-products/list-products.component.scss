@@ -1,0 +1,147 @@
+.search-add-container{
+  display: flex;
+  justify-content: flex-end;
+
+  .search-input{
+    margin-right: 40px;
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid rgb(0 0 0 / 20%);
+    line-height: normal;
+    padding-left: 20px;
+
+    &::placeholder{
+      font-weight: 600;
+      font-size: 15px;
+      color: #223345;
+
+    }
+  }
+
+  .add-button{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    color: #223345;
+
+    mat-icon{
+      color: #07C180;
+      font-size: 35px;
+      padding-left: 5px;
+      height: auto;
+    }
+  }
+}
+.table{
+
+  overflow-x: auto;
+  overflow-y: hidden;
+  min-width: 500px;
+  margin-top: 70px;
+  width: 100%;
+  border-spacing: 0px;
+  color: #212529;
+  border-top: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+  border-left: 1px solid #dee2e6;
+
+
+  thead{
+    width: 100%;
+    tr{
+      width: 100%;
+      th{
+        padding: 0.75rem;
+        vertical-align: bottom;
+        border-bottom: 1px solid #dee2e6;
+        border-top: 1px solid #dee2e6;
+        background: #fff;
+        text-align: start;
+        color: #7D9EB5 !important;
+
+
+
+      }
+
+      th:first-child{
+        border-left: 1px solid #dee2e6 !important;
+      }
+
+      th:last-child{
+        border-right: 1px solid #dee2e6 !important;
+      }
+
+
+      }
+  }
+
+  tbody{
+
+    tr{
+
+      td{
+        padding: 0.75rem;
+        vertical-align: bottom;
+        border-bottom: 1px solid #dee2e6;
+
+        background: #fff;
+        text-align: start;
+      }
+
+      td:first-child{
+        border-left: 1px solid #dee2e6 !important;
+      }
+
+      td:last-child{
+        border-right: 1px solid #dee2e6 !important;
+      }
+    }
+  }
+
+}
+
+.action{
+  display: flex;
+  align-items: center;
+
+  mat-icon:not(:nth-child(3)){
+    padding-right: 10px;
+  }
+
+
+}
+
+th.mat-header-cell:last-of-type{
+  padding-right: 0px;
+}
+
+.mat-header-cell{
+  text-align: start;
+  color: #7D9EB5 !important;
+  font-size: 14px;
+  font-weight: 600;
+}
+.mouv{
+  color: #FF9931;
+}
+.edit{
+  color: #11A1FD;
+}
+.delete{
+  color: #C03232;
+}
+
+// table {
+//     width: 100%;
+//     overflow-x: auto;
+//     overflow-y: hidden;
+//     min-width: 500px;
+// }
+// th.mat-header-cell {
+//     text-align: left;
+//     max-width: 300px;
+// }
