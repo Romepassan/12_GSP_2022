@@ -5,12 +5,6 @@
   </a>
 </p>
 
-## Source recovery
-
-```sh
-git clone https://gitlab.com/g5118/frontend-api-gsp.git
-```
-
 ## Install
 
 ```sh
@@ -20,13 +14,7 @@ npm install
 ## Usage
 
 ```sh
-ng start
-```
-
-## Run json-server
-
-```sh
-npm run database
+ng serve
 ```
 
 ## Author
@@ -34,6 +22,8 @@ npm run database
 👤 **Nader GOUASMI**
 👤 **Maxime LEJEUNE**
 👤 **Guilhem GABRIELLI**
+👤 **FRATANI Romain**
+👤 **Yvon Lewis**
 
 * Website: Equipe GSP
 
